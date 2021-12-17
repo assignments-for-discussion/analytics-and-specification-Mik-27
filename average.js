@@ -1,6 +1,6 @@
 
 function average(numbers) {
-  filteredNums = numbers.filter((num) => {
+  var filteredNums = numbers.filter((num) => {
     if(!Number.isNaN(num)){ 
       return num;
     }
